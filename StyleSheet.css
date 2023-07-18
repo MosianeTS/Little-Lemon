@@ -1,0 +1,75 @@
+﻿body {
+    background-color: lightgrey;
+}
+
+#Logo {
+    display: block;
+    width: 50%;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbg {
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 80px;
+    background-color: #4b3636;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+    .navbg a {
+        position: relative;
+        left: 31%;
+        top: 26px;
+        color: white;
+        margin-right: 45px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+
+#foodpic {
+    width: 90%;
+    height: 250px;
+    background-image: url('/Little Lemon Logos/Pene Picture.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+h1, p {
+    text-align: justify;
+    color: #0d1d56;
+}
+
+#foodpic {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+footer {
+    display: flex;
+    width: 50%;
+}
+
+.threecols {
+    display: flex;
+}
+
+    .threecols div {
+        flex: 1;
+    }
+
+footer div {
+    flex: 1;
+}body
+{
+}

@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content= "width=device-width,initial-scale = 1.0" >
+    <title>Little Lemon Restaurant Home</title>
+    <meta name="description" content="Best restaurant in town">
+    <meta name="author" content="Little Lemon Restaurant" >
+
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body{
+            background-color:lightgrey;
+        }
+        #Logo{
+            display:block;
+            width:50%;
+            height:210px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .navbg {
+            position: relative;
+            display:block;
+            width: 90%;
+            height: 80px;
+            background-color: #4b3636;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right:auto;
+            border-radius: 25px;
+        }
+        .navbg a {
+            position: relative;
+            left: 33%;
+            top: 26px;
+            color: white;
+            margin-right: 45px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        #foodpic {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+            margin-top: 40px;
+            height: 470px;
+            background-image: url('/Little Lemon Logos/Pene Picture.png');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+        h1,h2,p {
+            text-align:justify;
+            color:#0d1d56;
+            font-family: Calibri;
+        }
+        p {
+            font-size: 17px;
+        }
+         .threecols {
+            display:flex;
+            margin-top:30px;
+            margin-bottom: 40px;
+        }
+        #firstcol, #secondcol, #thirdcol {
+            background-color: lightpink;
+            width: 420px;
+            height: 500px;
+            margin: 40px;
+            border-radius: 20px;
+        }
+        #kebab, #salad, #chef{
+                width: 350px;
+                height: 220px;
+                border-radius:10px;
+        }
+        
+        footer {
+            display: flex;
+            width: 50%;
+        }
+        footer div {
+            flex:1;
+        }
+        #blogo {
+            width: 100px;
+            height: 150px;
+            
+        }
+             
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="/Little Lemon Logos/Chosen Logo.png" id="Logo" alt="Logo">
+        </div>
+        <div class="navbg">
+            <nav>
+                <a href="LittleHome.html">Home</a>
+                <a href="LittleMenu.html">Menu</a>
+                <a href="LittleBook.html">Book</a>
+                <a href="LittleAbout.html">About</a>
+                <a href="LittleGallery.html">Gallery</a>
+
+            </nav>
+        </div>
+        <div id="foodpic">
+            <h1>30% Off this Weekend</h1>
+            <p>Get 30% off this coming weekend on every dish that we serve. 
+            Save money and enjoy the best dishes in town.</p>
+
+        </div>
+      
+    </header>
+    <main>
+        <div class="threecols">
+            <div id="firstcol">
+                <h2>Our New Menu</h2>
+                <img src="/Little Lemon Logos/Kebabs.jpg" id="kebab" alt=" = Kebabs">
+                <p>
+                    We have a brand new menu that looks absolutely
+                    beautiful and it has new wonderful dishes that
+                    have been specially prepared by our very own
+                    head chef. The menu combines different cuisines
+                    from around the world and you can expect a great
+                    dining experience with wonderful choices waiting
+                    for you.
+                </p>
+            </div>
+            <div id="secondcol">
+                <h2>Book a table</h2>
+                <img src="/Little Lemon Logos/Salad.jpg" id="salad" alt=" GreenSalad">
+                <p>
+                    Book a table now to avoid dissapointment.
+                    If you book a table now, you will be guaranteed
+                    the best meal in town prepared by the best chefs
+                    in town. You can book a table inside the restaurant
+                    or outside the restaurant. Remember that spaces
+                    are running out so you better book fast.
+                </p>
+
+            </div>
+            <div id="thirdcol">
+                <h2>Opening hours</h2>
+                <img src="/Little Lemon Logos/Chef.jpg" id="chef" alt="chef at work">
+                <p>
+                    We have heard your suggestions as our valued customers
+                    and have increased our working hours. Our working hours
+                    are now from <strong>06:00 to 23:00.</strong>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="bottomlogo">
+            <img src="/Little Lemon Logos/footerlogo.png" id="blogo" alt="chef at work"> 
+        </div>
+        <div>
+            <hr>
+            <p>Copyright Little Lemon</p>
+        </div>
+    </footer>
+</body>
+</html>
